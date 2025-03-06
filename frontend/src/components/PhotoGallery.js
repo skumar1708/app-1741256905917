@@ -1,0 +1,1 @@
+import React from 'react';\n\nfunction PhotoGallery({ photos }) {\n  return (\n    <div className="photo-gallery">\n      {photos.map((photo, index) => (\n        <img key={index} src={photo} alt={`Photo ${index}`} />\n      ))}\n    </div>\n  );\n}\n\nexport default PhotoGallery;
