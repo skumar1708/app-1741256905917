@@ -1,0 +1,1 @@
+import React from 'react';\n\nfunction Contact() {\n  return (\n    <div className="contact-page">\n      <h1>Contact</h1>\n      <p>Feel free to reach out to me...</p>\n    </div>\n  );\n}\n\nexport default Contact;
