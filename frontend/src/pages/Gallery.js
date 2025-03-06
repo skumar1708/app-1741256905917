@@ -1,0 +1,1 @@
+import React from 'react';\nimport PhotoGallery from '../components/PhotoGallery';\n\nfunction Gallery() {\n  const photos = [\n    'https://via.placeholder.com/300',\n    'https://via.placeholder.com/300'\n  ];\n\n  return (\n    <div className="gallery-page">\n      <h1>Photo Gallery</h1>\n      <PhotoGallery photos={photos} />\n    </div>\n  );\n}\n\nexport default Gallery;
