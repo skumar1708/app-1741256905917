@@ -1,0 +1,1 @@
+import React from 'react';\n\nfunction BlogPost({ title, content, category, image }) {\n  return (\n    <article className="blog-post">\n      <img src={image} alt={title} />\n      <h2>{title}</h2>\n      <p>{content}</p>\n      <p><strong>Category:</strong> {category}</p>\n    </article>\n  );\n}\n\nexport default BlogPost;
