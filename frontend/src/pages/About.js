@@ -1,0 +1,1 @@
+import React from 'react';\n\nfunction About() {\n  return (\n    <div className="about-page">\n      <h1>About Me</h1>\n      <p>Welcome to my travel blog! I am a passionate traveler...</p>\n    </div>\n  );\n}\n\nexport default About;
